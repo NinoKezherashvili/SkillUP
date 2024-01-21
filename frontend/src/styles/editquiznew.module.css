@@ -1,0 +1,38 @@
+.questionindex {
+  color: #977dba;
+  border: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.questionindex:hover {
+  background-color: #4cdda3;
+}
+.questiondetail {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.questioninput {
+  border: 1px solid #977dba;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-top: 20px;
+}
+.changebutton {
+  display: block;
+  background-color: #977dba;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.changebutton:hover {
+  background-color: #4cdda3;
+}

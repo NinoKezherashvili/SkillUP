@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&");
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.userdata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 10%;
+}
+
+img {
+  width: 30%;
+}
+
+.language li {
+  background-color: #d9d9d9;
+  border-radius: 12px;
+  list-style-type: none;
+  width: 600px;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  margin-left: 0;
+}
+
+.language ul {
+  padding: 0;
+  margin: 0;
+}
+
+.language {
+  margin-top: 20px;
+}
+
+.userdata input {
+  width: 60%;
+  border: 1px solid #977dba;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 15px 0;
+}
+
+.profilenavigation {
+  display: flex;
+  width: 100%;
+  
+}
+
+.userdata img {
+  width: 130px;
+  height: 130px;
+}
+
+.profilenavigation h1 {
+  margin-left: 27%;
+}
+
+.profilebackarrow {
+  width: 20px;
+  height: 20px;
+  margin-left: -200px;
+}
+.profilenavigation a {
+  margin-top: 30px;
+}
+
+.userdata h3 {
+  text-align: left;
+  width: 60%;
+  font-size: 10px;
+  color: #977dba;
+  font-family: Inter;
+}

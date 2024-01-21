@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  left: 350px;
+  z-index: 0;
+}

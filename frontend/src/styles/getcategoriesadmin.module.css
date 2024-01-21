@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&");
+
+.Hsettings {
+  display: flex;
+  flex-direction: column;
+  background-color: #4f356e;
+  width: 20%;
+  position: relative;
+}
+
+body {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 100px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.Hfont {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 100px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.Hbutton {
+  width: 60px;
+  right: 0;
+  background-color: white;
+  text-decoration: none;
+  border: transparent;
+  cursor: pointer;
+}
+
+.navigation > * {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.dflex {
+  display: flex;
+}
+
+.dis > * {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #d9d9d9;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.quiz {
+  border: 1px solid #977dba;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.dcolumn {
+  flex-direction: column;
+}
+
+.dgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 30px;
+}
+
+.overlay {
+  content: "";
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #d9d9d9;
+  z-index: 1;
+}
+
+.zindex {
+  z-index: 2;
+}
+
+.quizimage {
+  height: 65%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: white;
+  background-image: url("../images/quizcategory.svg");
+  background-size: contain;
+  margin-left: 20px;
+}
+
+.quizdetails {
+  background-color: white;
+  height: calc(35% - 20px);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 20px;
+  border-top: 1px solid #977dba;
+}
+
+.quizname {
+  font-size: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #977dba;
+}
+
+.linkedit {
+  font-size: 14px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.quizcategory {
+  text-decoration: underline;
+}
+
+.adminquiznavigation {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  
+}

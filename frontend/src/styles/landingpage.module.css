@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&");
+
+.f200 {
+  font-family: Inter;
+  font-weight: 200;
+}
+
+.dFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f15 {
+  font-size: 20px;
+}
+
+.cWhite {
+  color: #977dba;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+nav {
+  width: 100%;
+  align-items: center;
+}
+
+.about {
+  width: 20%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.imgOnTop {
+  position: absolute;
+  top: 28%;
+  left: 60%;
+  transform: translateX(-50%);
+  height: 430px;
+  width: 55%;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.homepagelogo {
+  margin: 0;
+  width: 100px;
+  margin-left: 30px;
+}
+.imgOnTop:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 8;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  width: 700px;
+  max-width: 100%;
+  height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  justify-content: center;
+  border-radius: 18px;
+  position: absolute;
+  top: 25vh;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #4f356e;
+  font-weight: bold;
+}
+
+.closeButton:hover {
+  color: #fe3a20;
+}
+
+.login {
+  border-radius: 5px;
+  border: 1px solid #977dba;
+  padding: 10px 200px;
+  margin-bottom: 30px;
+  background-color: #977dba;
+  color: white;
+}
+
+.loginButton {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.navigation {
+  height: 10vh;
+}
+
+.greenLine {
+  display: block;
+  height: 1px;
+  background-color: #23ce7c;
+  width: 40%;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.signup {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  margin-right: 10px;
+}
+
+.signupnavigation {
+  display: flex;
+  width: auto;
+}
+
+.signupnavigation img {
+  width: auto;
+}
+
+.contentcontainer {
+  position: relative;
+  z-index: 3;
+}
+
+.fig2 {
+  position: absolute;
+  background-color: #977dba;
+  height: 90vh;
+  width: 100vw;
+  top: 10vh;
+  z-index: 2;
+}
+
+.fig3 {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  right: 40vh;
+  width: 100vw;
+  top: 0;
+  border-radius: 40%;
+  z-index: 3;
+}
+
+.aboutus {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 100vw;
+  border-bottom: 5px solid #977dba;
+}
+
+.info {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.homecontent {
+  position: absolute;
+  top: 30vh;
+  height: 70vh;
+  z-index: 6;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.homecontent div {
+  width: 50vw;
+}
+
+.homecontent img {
+  width: 70%;
+}
+
+.homepageheader {
+  margin-top: 65px;
+  margin-bottom: 10%;
+ font-size: 40px;
+ font-family: Inter;
+ 
+}
+.homepagelink {
+  background-color: #977dba;
+  color: white;
+  text-decoration: none;
+  padding: 15px 120px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
