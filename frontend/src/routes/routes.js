@@ -15,6 +15,7 @@ import SecurityAdmin from "../pages/SecurityAdmin";
 import ProfileSettingsAdmin from "../pages/ProfileSettingsAdmin";
 import CreateQuizAltAdmin from "../pages/CreateQuizAltAdmin";
 import Scores from "../pages/Scores";
+import LoginAfterRegister from "../pages/LoginAfterRegister";
 
 const routes = [
   {
@@ -52,7 +53,12 @@ const routes = [
     element: <Login />,
     path: "/login",
   },
+  {
+    element: <LoginAfterRegister />,
+    path: "/loginafterregister",
+  },
 
+  
   {
     element: <GetCategories />,
     path: "/quizappgetcategories",
